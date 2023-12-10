@@ -2,21 +2,87 @@
     "games": [
         {
             "id": 1,
-            "name": "",
-            "date": "2021-01-01",
+            "name": "The Lost Vikings",
+            "date": "1993-10-28",
             "description": "",
-            "players": [
-                {
-                    "name": "",
-                    "score": 0,
-                    "winner": true
-                },
-                {
-                    "name": "",
-                    "score": 0,
-                    "winner": false
-                }
-            ]
+            "colour": "yellow",
+            "image": "images/lost-vikings.png",
+            "box": true,
+            "booklet": true,
+            "condition": "ok",
+            "link": "https://www.nintendolife.com/games/snes/lost_vikings"
+        },
+        {
+            "id": 1,
+            "name": "Starwing",
+            "date": "1993-06-03",
+            "description": "aka Star Fox",
+            "colour": "grey",
+            "image": "images/star-fox.png",
+            "box": true,
+            "booklet": true,
+            "condition": "good",
+            "link": "https://www.nintendolife.com/games/snes/star_fox"
+        },
+        {
+            "id": 1,
+            "name": "Super Mario World",
+            "date": "1992-04-11",
+            "description": "",
+            "colour": "red",
+            "image": "images/super-mario-world.png",
+            "box": true,
+            "booklet": true,
+            "condition": "ok",
+            "link": "https://www.nintendolife.com/games/snes/super_mario_world"
+        },
+        {
+            "id": 1,
+            "name": "The Lawnmower Man",
+            "date": "1970-01-01",
+            "description": "",
+            "colour": "blue",
+            "image": "",
+            "box": true,
+            "booklet": true,
+            "condition": "ok",
+            "link": ""
+        },
+        {
+            "id": 1,
+            "name": "Pilot Wings",
+            "date": "1992-01-01",
+            "description": "",
+            "colour": "light-blue",
+            "image": "images/pilotwings.png",
+            "box": true,
+            "booklet": true,
+            "condition": "ok",
+            "link": "https://www.nintendolife.com/games/snes/pilotwings"
+        },
+        {
+            "id": 1,
+            "name": "Goof Troop",
+            "date": "1993-11-25",
+            "description": "",
+            "colour": "light-green",
+            "image": "images/goof-troop.jpg",
+            "box": true,
+            "booklet": true,
+            "condition": "ok",
+            "link": "https://www.nintendolife.com/games/snes/goof_troop"
+        },
+        {
+            "id": 1,
+            "name": "Battletoads in Battlemaniacs",
+            "date": "1993-01-01",
+            "description": "",
+            "colour": "purple",
+            "image": "images/battletoads-in-battlemaniacs.jpg",
+            "box": true,
+            "booklet": true,
+            "condition": "ok",
+            "link": "https://www.nintendolife.com/games/snes/battletoads_in_battlemaniacs"
         }
     ]
 }
