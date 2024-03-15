@@ -115,9 +115,12 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">{{game.description}}</p>
+                                    <p class="card-text">Box: {{game.box}} | Booklet: {{game.booklet}}</p>
+                                    <p class="card-text">Condition: {{game.condition}} | Colour: {{game.colour}}</p>
                                 </div>
                                 <div class="card-footer text-muted">
                                     {{game.date | toDate | date:'mediumDate'}}
+                                    <a ng-if="game.link.length > 0" ng-href="{{game.link}}" target="_blank" class="btn btn-secondary float-right">Info</a>
                                 </div>
                             </div>
                         </div>
